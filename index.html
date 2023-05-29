@@ -6,11 +6,140 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-
 </head>
 <body>
+    <section class="home">
+        <header class="header">
+            <div class="container header__container">
+                <div class="logo">
+                    <img src="images/Icon%20Logo%20Normal.svg">
+                    <div class="logo__text"><span>CAR</span> SHARING</div>
+                </div>
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="hero">
+            <div class="container hero__container">
 
+                <div class="hero__name">
+                    <h1>CAR SHARING</h1>
+                </div>
+                <div class="hero__caption">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="hero__buttons">
+                    <a class="hero__buttons-primary" href="">SHARE CAR</a>
+                    <a class="hero__buttons-secondary" href="">KEY FEATURES</a>
+                </div>
+            </div>
+        </div>
+        <div class="scrolldown">
+            <div class="container">
+                <a href=""><div class="arrow"></div></a>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container blog__container">
+            <h2><span>BLOG</span></h2>
+            <div class="article_box">
+                <article class="article__blog">
+                    <img src="images/photo1.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="article__blog">
+                    <img src="images/photo2.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="article__blog">
+                    <img src="images/photo3.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </div>
+
+    </section>
+    <section class="service">
+        <div class="container service__container">
+            <h2><span>SERVICE</span></h2>
+            <div class="article__box-service">
+                <article class="article__service">
+                    <img src="images/mini1.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="article__service">
+                    <img src="images/mini2.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="article__service">
+                    <img src="images/mini3.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="article__service">
+                    <img src="images/mini4.png">
+                    <h3>LOREM IPSUM SIT DOLOR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container contact__container">
+            <h2><span>CONTACT</span></h2>
+            <div class="contact__content">
+                <div class="contact__img">
+                    <img src="images/Form%20Photo.png">
+                </div>
+                <div class="formularz">
+                    <form class="form">
+                        <div class="form__name">
+                            <label class="hidden" for="name">Type your name</label><input id="name" type="text" placeholder="Type your name" />
+                        </div>
+                        <div class="form__email">
+                            <label class="hidden" for="email" >Type your e-mail</label><input id="email" type="email" placeholder="Type your e-mail" />
+                        </div>
+                        <div class="form__msg">
+                            <label class="hidden" for="message">Type your message</label><textarea id="message">Type your message</textarea>
+                        </div>
+                        <div class="form__zgoda">
+                            <input class="checkbox" type="checkbox" placeholder="" />
+                            <label class="label">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
+                        </div>
+                        <div class="buttons">
+                            <button type="submit" class="form__btn">Send</button>
+                            <a href="#" class="form__link"></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </body>
 </html>
